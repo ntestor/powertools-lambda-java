@@ -13,7 +13,7 @@
         <log4j.version>2.24.3</log4j.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <aws.sdk.v1.version>1.12.781</aws.sdk.v1.version>
+        <aws.sdk.v1.version>1.12.787</aws.sdk.v1.version>
     </properties>
 
     <dependencies>
@@ -108,8 +108,7 @@
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <transformers>
-                                <transformer
-                                        implementation="com.github.edwgiz.maven_shade_plugin.log4j2_cache_transformer.PluginsCacheFileTransformer">
+                                <transformer implementation="com.github.edwgiz.maven_shade_plugin.log4j2_cache_transformer.PluginsCacheFileTransformer">
                                 </transformer>
                             </transformers>
                         </configuration>
