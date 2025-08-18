@@ -13,7 +13,7 @@
     <name>A Lambda function using Powertools for AWS Lambda (Java) batch</name>
 
     <properties>
-        <netty.version>4.2.0.RC3</netty.version>
+        <netty.version>4.2.4.Final</netty.version>
     </properties>
 
     <dependencies>
