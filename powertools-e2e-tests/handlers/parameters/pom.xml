@@ -13,7 +13,7 @@
     <name>A Lambda function using powertools logging</name>
 
     <properties>
-        <netty.version>4.2.0.RC3</netty.version>
+        <netty.version>4.2.5.Final</netty.version>
     </properties>
 
     <dependencies>
